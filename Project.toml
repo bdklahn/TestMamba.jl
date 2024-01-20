@@ -1,7 +1,11 @@
 name = "TestMamba"
 uuid = "ab4948e5-1430-48ed-851c-11c4af2c8043"
-authors = ["Brian D. Klahn <briandk@virginia.edu> and contributors"]
+authors = ["Brian D. Klahn <brian.klahn@klahnpages.net> and contributors"]
 version = "1.0.0-DEV"
+
+[deps]
+MicroMamba = "0b3b1443-0f03-428d-bdfb-f27f9c1191ea"
+Scratch = "6c6a2e73-6563-6170-7368-637461726353"
 
 [compat]
 julia = "1"
