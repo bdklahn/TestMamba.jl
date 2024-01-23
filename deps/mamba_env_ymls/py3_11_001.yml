@@ -1,4 +1,4 @@
-name: app001
+name: py3_11_001
 channels:
   - conda-forge
 dependencies:
