@@ -1,14 +1,16 @@
 module TestMamba
+
 using Scratch
 using MicroMamba
 using YAML
 
-export mamba_root
-
-const mamba_root = Ref{String}("")
+export mamba_run
+export python
 
 function __init__()
-    global mamba_root[] = @get_scratch!("mamba_root")
+    global MicroMamba.STATE.root_dir = @get_scratch!("mamba_root")
 end
+
+include("apps.jl")
 
 end # module TestMamba
