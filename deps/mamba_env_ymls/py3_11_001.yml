@@ -1,9 +1,9 @@
-name: py3_11_001
+name: py3_12_001
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
+  - python=3.12
   - pip
   - pip:
-    - ipython
-    - typer
+      - ipython
+      - cyclopts
